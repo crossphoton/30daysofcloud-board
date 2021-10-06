@@ -32,7 +32,7 @@ export default function Home() {
             30 Days of Cloud - Progress Board
           </Typography>
         </div>
-        <Table data={data.results}></Table>
+        <Table data={data.resultsWithRank}></Table>
       </div>
     </>
   );
