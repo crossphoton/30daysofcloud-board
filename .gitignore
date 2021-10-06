@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 
+/data
+
 # testing
 /coverage
 
@@ -32,6 +34,3 @@ yarn-error.log*
 
 # vercel
 .vercel
-
-# data
-data/data.json
