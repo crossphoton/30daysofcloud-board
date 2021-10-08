@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>30 Days of Cloud - Progress Board</title>
       </Head>
-      <div style={{ padding: 50 }}>
+      <div className = "main-div">
         <footer className="flex apart">
           <Typography variant="body2" color="textSecondary">
             Last updated: {data.buildDate}
