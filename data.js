@@ -71,7 +71,7 @@ fs.createReadStream("data/data.csv")
       "data/data.json",
       JSON.stringify({
         resultsWithRank,
-        buildDate: new Date(Date.now()).toDateString(),
+        buildDate: new Date(Date.now()).toLocaleString(),
         institute,
       }),
       (err) => {
